@@ -1,0 +1,42 @@
+.navbar-nav li a {
+  color: white;
+}
+
+.carousel .carousel-indicators li{
+  background-color: #dddcdc;
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+}
+.carousel .carousel-indicators {
+  bottom: auto;
+}
+.carousel .carousel-indicators  .active{
+  background-color: #ea1e64;
+}
+
+@media screen and (max-width: 912px) {
+  .header-design {
+    background-size: auto !important;
+    height: 60vh !important;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .customer .customer-name .image {
+    justify-content: center !important;
+  }
+  .customer .customer-name p  {
+    text-align: center !important;
+    
+  }
+  .customer .customer-name .paragraph p {
+    text-align: center !important;
+  }
+
+  .header-design {
+    background-size: auto !important;
+    height: 100vh !important;
+  }
+
+}
